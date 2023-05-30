@@ -1,0 +1,56 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
+  theme: {
+    extend: {
+      colors: {
+        "weather-primary": "#00668A",
+        "weather-secondary": "#004E71",
+        body: '#5A5A5A',
+        heading: '#212121',
+        input: '#1D1E1F',
+        black: '#000',
+        white: '#fff',
+        linen: '#FBF1E9',
+        linenSecondary: '#ECE7E3',
+        olive: '#3D9970',
+        maroon: '#B03060',
+        brown: '#C7844B',
+        placeholder: '#707070',
+        borderBottom: '#f7f7f7',
+        facebook: '#4267B2',
+        facebookHover: '#395fad',
+        google: '#4285F4',
+        googleHover: '#307bf9',
+        bgAdditional: "AntiqueWhite",
+        bgAdditionalCover: "#faebd759",
+        gray: {
+          50: '#FBFBFB',
+          100: '#F1F1F1',
+          150: '#F4F4F4',
+          200: '#F9F9F9',
+          300: '#E6E6E6',
+          350: '#E9ECEF',
+          400: '#999999',
+          500: '#D8D8D8',
+          600: '#3A3A3A',
+          700: '#292929',
+          800: '#707070',
+          900: '#343D48',
+        },
+      },
+    },
+    fontFamily: {
+      Roboto: ["Roboto, sans-serif"],
+    },
+    container: {
+      padding: "2rem",
+      center: true,
+    },
+    screens: {
+      sm: "640px",
+      md: "768px",
+    },
+  },
+  plugins: [],
+};
