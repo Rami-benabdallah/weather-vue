@@ -49,7 +49,7 @@
           `http://openweathermap.org/img/wn/${weatherData.current.weather[0].icon}@2x.png`
         "
         alt=""
-      />
+  o    />
     </div>
 
     <hr class="border-white border-opacity-10 border w-full" />

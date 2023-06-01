@@ -9,7 +9,7 @@
           <p class="text-2xl">The Local Weather</p>
         </div>
       </RouterLink>
-      <RouterLink :to="{ name: 'tryMeVue' }">
+      <RouterLink :to="{ name: 'tryMeView' }">
         <div class="flex items-center gap-3">
           <i class="fa-solid fa-sun text-2xl"></i>
           <p class="text-2xl">Try me!</p>
